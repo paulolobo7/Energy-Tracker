@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7223f0;
+}
+
+.container{
+    width: 320px;
+    background: #4B22A8;
+    border-radius: 25px;
+    padding: 30px 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(252, 252, 252, 0.89);
+    font-weight: bold;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.logo img{
+    width: 460px; /* Ajuste conforme necessário */
+    height: auto;
+}
