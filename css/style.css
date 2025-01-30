@@ -1,38 +1,56 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #7223f0;
+    background-color: #3a3767;
+    font-family: "Titillium Web", sans-serif;
 }
 
-.container{
-    width: 320px;
-    background: #4B22A8;
-    border-radius: 25px;
-    padding: 30px 20px;
+.screen {
     text-align: center;
-    color: #fff;
-    box-shadow: 0 4px 15px rgba(252, 252, 252, 0.89);
-    font-weight: bold;
 }
 
-.logo{
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    position: relative;
+.image-container {
+    margin-top: 180px;
+    width: 279px;
+    height: 70px;
+    border-radius: 8px;
+    background-image: url('https://assets.api.uizard.io/api/cdn/stream/6597b96b-6647-4f11-8674-332ff50690d0.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
-.logo img{
-    width: 460px; /* Ajuste conforme necessário */
-    height: auto;
+.title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-top: 20px;
 }
+
+.subtitle {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.button {
+    cursor: pointer;
+    width: 335px;
+    height: 48px;
+    border: 2px solid #fefefe;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 40px;
+    padding: 0;
+}
+
